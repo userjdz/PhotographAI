@@ -4,8 +4,8 @@ Herramienta para la identificación de rostros
 Esta herramienta está destinada a la clasificación de imagenes por medio de reconocimiento facial.
 
 Para instalar la herramienta y usarla, asegurate de tener instalato Python en tu equipo, puedes descarlo de https://www.python.org/downloads/
-Posteriormente, para windows ejecuta el archivo  "Instalacion.bat" 
-Si eres usuario de MAC, ejecuta los siguientes comandos en la terminal 
+Posteriormente, para windows ejecuta el archivo  "Instalacion.bat".
+Si eres usuario de MAC, ejecuta los siguientes comandos en la terminal: 
 
 python3 -m ensurepip
 
@@ -27,6 +27,6 @@ Posteriormente, de la misma manera cree una catpeta llamada "B" y almacene allí
 
 Ahora es momento de ejecutar el archivo "PhotographAI.py" y esperar a que finalice, momento en el cual imprimirá "El proceso ha terminado exitosamente.", los resultados los encontraremos en la carpeta que se ha creado, llamada "detected_faces", en donde se encontrarán separadas por carpetas cada coincidencia encontrada, tambien encontrará allí la carpeta "NOT_FOUND", en la cual se encontrarán los rostros que el programa no pudo reconocer...
 
-ADVERTENCIA: Hasta el momento la deteccion de rostros no es perfecta, se recomienda una revision humana a cada una de las carpetas de los resultados con el fin de depurar los resultados. 
+ADVERTENCIA: Hasta el momento la deteccion de rostros no es perfecta, se recomienda una revision humana a cada una de las carpetas de los resultados con el fin de depurar dichos resultados. 
 
 Nota: Esta es hasta el momento la primera y más primitiva version funcional de este proyecto, cualquier clase de recomendacion para mejorar será gratamente aceptada.
