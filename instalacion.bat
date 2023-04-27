@@ -12,7 +12,7 @@ pip install imutils
 echo Instalando Cmake
 pip install CMake
 
-echo Instalando face-recognition...
+echo Instalando face_recognition...
 pip install face-recognition
 
 echo Instalación terminada.
