@@ -13,7 +13,7 @@ face_locations=[]
 detected_faces_folder = "detected_faces"
 if not os.path.exists(detected_faces_folder):
     os.makedirs(detected_faces_folder)
-# Ruta de la carpeta "a"
+# Ruta de la carpeta "a" Fotos unicas de los graaduados (donde solo salen los graduados)
 folder_a = os.path.join(ruta_directorio_archivo,"A")
 for filename in os.listdir(folder_a):
 
@@ -31,7 +31,7 @@ for filename in os.listdir(folder_a):
         os.makedirs(face_folder)
     cv2.imwrite(os.path.join(face_folder, filename), image)
     
-
+# Ruta de la carpeta "b" son todas las fotos a ordenar
 folder_b = os.path.join(ruta_directorio_archivo,"B")
 for filename in os.listdir(folder_b):
     # Cargar la imagen
