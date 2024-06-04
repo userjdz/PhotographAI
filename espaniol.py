@@ -7,7 +7,7 @@ ruta_directorio_archivo = os.path.dirname(os.path.abspath(__file__))
 
 # Modelo de detección de rostros
 modelo_deteccion = "cnn"
-
+Fmodel="cnn"
 # Listas para almacenar los códigos de reconocimiento facial y otros datos
 codigos_rostros_a = []
 indice_codigo_rostro_a = 0
